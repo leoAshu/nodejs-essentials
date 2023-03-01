@@ -1,21 +1,24 @@
 // delay with setTimeout
-// comment out the code above for a proper output of this section
 const waitTime = 3000;
 console.log(`setting a ${waitTime / 1000} second delay`);
 const timerFinished = () => {
     clearInterval(interval);
-    console.log("done");
-
+    process.stdout.clearLine();
+    process.stdout.cursorTo(0);
+    process.stdout.write("done... 100%");
 };
 setTimeout(timerFinished, waitTime);
 
-// set Interval
+// timer using setInterval
 const waitInterval = 500;
 let currentTime = 0;
 
 const incrementTime = () => {
     currentTime += waitInterval;
-    console.log(`waiting ${currentTime / 1000} seconds`);
+    const progress = Math.floor((currentTime / waitTime) * 100);
+    process.stdout.clearLine();
+    process.stdout.cursorTo(0);
+    process.stdout.write(`waiting... ${progress}%`);
 }
 
 const interval = setInterval(incrementTime, waitInterval);

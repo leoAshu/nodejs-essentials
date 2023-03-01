@@ -36,14 +36,17 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
 
 - These objects are available in all modules and need not be included in an application.
 - The built-in JavaScript language objects are also globally accessible.
-- Some variables may appear to be global but are not. These exist in the scope of modules:
-    - `__dirname`
-    - `__filename`
-    - `exports`
-    - `module`
-    - `require()`
 - Some important global objects are:
     - `Process`:
         - provides information about, and control over the current Node.js process instance.
         - `process.argv`: can be used to collect information from the terminal.
         - `process.stdin` and `process.stdout`: standard input and standard output.
+
+
+> Note:
+> - Some variables may appear to be global but are not. These exist in the scope of modules:
+>    - `__dirname`
+>    - `__filename`
+>    - `exports`
+>    - `module`
+>    - `require()`

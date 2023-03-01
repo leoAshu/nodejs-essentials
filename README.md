@@ -21,7 +21,7 @@ Node.js is a cross-platform, open-source and an asynchronous event-driven JavaSc
 
 1. Node.js
     - 2009
-    - [Install Node.js](https://nodejs.org/en/)
+    - [Install](https://nodejs.org/en/)
 2. npm
     - 2011
 3. Node.js Foundation

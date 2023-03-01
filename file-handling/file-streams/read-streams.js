@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-let stream = fs.createReadStream("./chat-logs/chat.log", "UTF-8");
+let stream = fs.createReadStream("./chat.log", "UTF-8");
 
 let data;
 

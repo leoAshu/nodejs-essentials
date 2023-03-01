@@ -11,8 +11,8 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
 - [History of Node.js](#history-of-nodejs)
 - [Node Globals](#node-globals)
     - [Global Objects](#global-objects)
-- [Node Modules](#)
-    - [npm](#)
+- [Node Modules](#node-modules)
+    - [npm](#npm)
 - [File Management and Streams](#)
 - [Error Handling and Debugging](#)
 - [Testing](#)
@@ -80,4 +80,3 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
         - `npm uninstall --no-save <package_name>`
     - remove global packages
         - `npm uninstall -g <package_name`
-        

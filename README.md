@@ -45,4 +45,5 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
 - Some important global objects are:
     - `Process`:
         - provides information about, and control over the current Node.js process instance.
-        - can be used to collect information from the terminal using `process.argv`.
+        - `process.argv`: can be used to collect information from the terminal.
+        - `process.stdin` and `process.stdout`: standard input and standard output.

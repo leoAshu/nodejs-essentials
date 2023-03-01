@@ -8,10 +8,22 @@ Node.js is a cross-platform, open-source and an asynchronous event-driven JavaSc
 
 # Table of Contents:
 
-- [History of Node.js](#)
+- [History of Node.js](#history-of-node.js)
 - [Node Globals](#)
+    - [Global Objects](#)
 - [Node Modules](#)
-    - [NPM](#)
+    - [npm](#)
 - [File Management and Streams](#)
 - [Error Handling and Debugging](#)
 - [Testing](#)
+
+## History of Node.js:
+
+1. Node.js
+    - 2009
+    - [Install Node.js](https://nodejs.org/en/)
+2. npm
+    - 2011
+3. Node.js Foundation
+    - 2015
+    - IBM, Microsoft, Paypal and others

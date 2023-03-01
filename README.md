@@ -27,3 +27,18 @@ Node.js is a cross-platform, open-source and an asynchronous event-driven JavaSc
 3. Node.js Foundation
     - 2015
     - IBM, Microsoft, Paypal and others
+
+<br>
+
+## Node Globals:
+
+### Global Objects:
+
+- These objects are available in all modules and need not be included in an application.
+- The built-in JavaScript language objects are also globally accessible.
+- Some variables may appear to be global but are not. These exist in the scope of modules:
+    - __dirname
+    - __filename
+    - exports
+    - module
+    - require()

@@ -14,6 +14,8 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - [Node Modules](#node-modules)
     - [npm](#npm)
 - [Commonly Used Commands](#commonly-used-commands)
+    - [Check Version](#check-version)
+    - [Run a Script](#run-nodejs-script)
 
 ## History of Node.js:
 

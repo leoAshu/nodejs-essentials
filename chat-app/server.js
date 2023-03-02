@@ -28,13 +28,22 @@ app.post('/messages', (req, res) => {
 
     var message = new Message(req.body);
     
-    message.save().then(() => {
+    message.save()
+    .then(() => {
+        console.log('saved');
+        return Message.findOne({message: 'badword'});
+    }).then((censored) => {
+        if(censored) {
+            console.log('censored words found:', censored);
+            return Message.removeAllListeners({_id: censored.id});
+        }
         io.emit('message', req.body);
         res.sendStatus(200);
     }).catch((err) => {
         console.log(err);
         res.sendStatus(500);
     })
+    
 });
 
 io.on('connection', (socket) => {

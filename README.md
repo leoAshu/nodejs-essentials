@@ -56,57 +56,61 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 ## Node Modules:
 
 ### npm:
+
+- is the standard package manager for Node.js
+- is downloaded and bundled alongside Node.js
+- can be used to download, configure and create packages for Node.js projects
     
-    // initialise a javascript project as a node package
-    npm init
+        // initialise a javascript project as a node package
+        npm init
 
-    // initialise as a default node package
-    npm init -y
-    npm init --yes
+        // initialise as a default node package
+        npm init -y
+        npm init --yes
 
-    // install a package locally
-    npm i <package_name>
-    npm install <package_name>
+        // install a package locally
+        npm i <package_name>
+        npm install <package_name>
 
-    // install packages from package.json dependencies
-    npm i
-    npm install
+        // install packages from package.json dependencies
+        npm i
+        npm install
 
-    // install a package globally
-    npm i -g <package_name>
-    npm install -g <package_name>
+        // install a package globally
+        npm i -g <package_name>
+        npm install -g <package_name>
 
-    // update all local packages
-    npm update
-
-    // update a specific local package
-    npm update <package_name>
-
-    // update all global packages
-    npm update -g
-
-    // update a specific global package
-    npm update -g <package_name>
-
-    // list outdated local packages
-    npm outdated
-
-    // list outdated global packages
-    npm outdated -g --depth=0
-
-    // remove a local package
-    npm uninstall <package_name>
-
-    // remove a local package without removing it from package.json
-    npm uninstall --no-save <package_name>
-
-    // remove a global package
-    npm uninstall -g <package_name>
+        // update all local packages
+        npm update
+    
+        // update a specific local package
+        npm update <package_name>
+    
+        // update all global packages
+        npm update -g
+    
+        // update a specific global package
+        npm update -g <package_name>
+    
+        // list outdated local packages
+        npm outdated
+    
+        // list outdated global packages
+        npm outdated -g --depth=0
+    
+        // remove a local package
+        npm uninstall <package_name>
+    
+        // remove a local package without removing it from package.json
+        npm uninstall --no-save <package_name>
+    
+        // remove a global package
+        npm uninstall -g <package_name>
 
 > Note:
-> - is the standard package manager for Node.js
-> - is downloaded and bundled alongside Node.js
-> - can be used to download, configure and create packages for Node.js projects
+> 
+> 
+> 
 
 <br>
 

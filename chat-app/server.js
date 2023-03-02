@@ -49,25 +49,26 @@ app.get('/messages', (req, res) => {
 
 // better implementation using async/await
 app.post('/messages', async (req, res) => {
-    console.log(req.body);
 
-    var message = new Message(req.body);
+    try {
+        console.log(req.body);
 
-    await message.save();
-    console.log('saved');
-    
-    var censored = await Message.findOne({message: 'badword'});
-    if(censored)
-        await Message.findOneAndDelete({_id: censored.id});
-    else 
-        io.emit('message', req.body);
-    
-    res.sendStatus(200);
+        var message = new Message(req.body);
 
-    // catch((err) => {
-    //     console.log(err);
-    //     res.sendStatus(500);
-    // })
+        await message.save();
+        console.log('saved');
+        
+        var censored = await Message.findOne({message: 'badword'});
+        if(censored)
+            await Message.findOneAndDelete({_id: censored.id});
+        else 
+            io.emit('message', req.body);
+        
+        res.sendStatus(200);
+    } catch(err) {
+        console.log(err);
+        res.sendStatus(500);
+    }
     
 });
 

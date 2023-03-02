@@ -66,6 +66,10 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
     npm i <package_name>
     npm install <package_name>
 
+    // install packages from package.json dependencies
+    npm i
+    npm install
+
     // install a package globally
     npm i -g <package_name>
     npm install -g <package_name>
@@ -98,10 +102,25 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
     npm uninstall -g <package_name>
 
 > Note:
-> - is the standard package manager for `Node.js`
-> - is downloaded and bundled alongside `Node.js`
-> - can be used to download, configure and create packages for `Node.js` projects
+> - is the standard package manager for Node.js
+> - is downloaded and bundled alongside Node.js
+> - can be used to download, configure and create packages for Node.js projects
 
 <br>
 
 ## Commonly Used Commands:
+
+### Check version:
+    
+    // display node.js version
+    node -v
+    node --version
+
+### Run Node.js script:
+
+    // run a script file
+    // can omit the .js extension
+    node <file_name>
+    node app.js
+    node app
+

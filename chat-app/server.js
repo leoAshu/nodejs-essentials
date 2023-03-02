@@ -15,13 +15,12 @@ var Message = mongoose.model('Message', {
     message: String,
 });
 
-var messages = [
-    // {name: 'Tim', message: 'Hi'},
-    // {name: 'Jane', message: 'Hello'},
-];
-
 app.get('/messages', (req, res) => {
-    res.send(messages);
+    Message.find({}).then((messages) => {
+        res.send(messages);
+    }).catch((err) => {
+        console.log(err);
+    });
 });
 
 app.post('/messages', (req, res) => {
@@ -30,7 +29,6 @@ app.post('/messages', (req, res) => {
     var message = new Message(req.body);
     
     message.save().then(() => {
-        messages.push(req.body);
         io.emit('message', req.body);
         res.sendStatus(200);
     }).catch((err) => {

@@ -82,35 +82,30 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 
         // update all local packages
         npm update
-    
+
         // update a specific local package
         npm update <package_name>
-    
+
         // update all global packages
         npm update -g
-    
+
         // update a specific global package
         npm update -g <package_name>
-    
+
         // list outdated local packages
         npm outdated
-    
+
         // list outdated global packages
         npm outdated -g --depth=0
-    
+
         // remove a local package
         npm uninstall <package_name>
-    
+
         // remove a local package without removing it from package.json
         npm uninstall --no-save <package_name>
-    
+
         // remove a global package
         npm uninstall -g <package_name>
-
-> Note:
-> 
-> 
-> 
 
 <br>
 

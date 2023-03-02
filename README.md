@@ -4,7 +4,7 @@
 
 # Node.js Essentials
 
-Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` JavaScript runtime evironment.
+Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven` JavaScript runtime evironment.
 
 # Table of Contents:
 

@@ -13,9 +13,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
     - [Global Objects](#global-objects)
 - [Node Modules](#node-modules)
     - [npm](#npm)
-- [File Management and Streams](#)
-- [Error Handling and Debugging](#)
-- [Testing](#)
+- [Commonly Used Commands](#commonly-used-commands)
 
 ## History of Node.js:
 
@@ -57,7 +55,18 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
 
 ### npm:
 
-- is the standard package manager for Node.js
+- is the standard package manager for `Node.js`
+- is downloaded and bundled alongside `Node.js`
+- can be used to download, configure and create packages for `Node.js` projects
+- useful commands:
+    
+    // initialise a javascript project as a node package
+    npm init
+
+    // install packages locally
+    npm install <package_name>
+
+
 - can be used to:
     - initialise a javascript project as a package:
         - `npm init`
@@ -80,3 +89,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous event-driven` 
         - `npm uninstall --no-save <package_name>`
     - remove global packages
         - `npm uninstall -g <package_name`
+
+<br>
+
+

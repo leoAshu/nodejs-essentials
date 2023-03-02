@@ -1,3 +1,5 @@
+var socket = io();
+
 $(document).ready(() => {
     $("#send").click(() => {
         const message = {

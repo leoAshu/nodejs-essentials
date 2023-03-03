@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "This is the chat app project including test cases written using Jasmine",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "author": "Ashutosh Ojha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "jasmine": "^4.5.0"
+  }
+}

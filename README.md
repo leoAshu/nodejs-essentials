@@ -72,6 +72,10 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
         npm i <package_name>
         npm install <package_name>
 
+        // install a package locally as a dev dependency
+        npm i --save-dev <package_name>
+        npm install --save-dev <package_name>
+
         // install packages from package.json dependencies
         npm i
         npm install

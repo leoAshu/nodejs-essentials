@@ -4,11 +4,12 @@ const app = express();
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const mongoose = require('mongoose');
+const config = require('../config');
 
 app.use(express.static(__dirname));
 app.use(parser.urlencoded({extended: true}))
 
-const dbURL = 'mongodb+srv://ashu_leo:aXYUDQsIbFakXUm8@demo.mq7oizd.mongodb.net/?retryWrites=true&w=majority';
+const dbURL = `mongodb+srv://${config.db_user}:${config.db_pass}@demo.mq7oizd.mongodb.net/?retryWrites=true&w=majority`;
 
 var Message = mongoose.model('Message', {
     name: String,
@@ -86,6 +87,3 @@ mongoose.connect(dbURL)
 const server = http.listen(3000, () => {
     console.log('server running on port', server.address().port);
 });
-
-
-// aXYUDQsIbFakXUm8

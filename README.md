@@ -129,3 +129,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
     node app.js
     node app
 
+### Run Tests:
+
+    // run a test
+    npm test

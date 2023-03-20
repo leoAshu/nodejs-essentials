@@ -16,17 +16,18 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - [Node Globals](#node-globals)
     - [Global Objects](#global-objects)
 - [Node Modules](#node-modules)
-    - [Packages](#packages)
-    - [npm](#npm)
-- [Commonly Used `npm` Commands](#commonly-used-npm-commands)
-    - [Initialise Package](#initialise-package)
-    - [Install Packages](#install-packages)
-    - [Update Packages](#update-packages)
-    - [List Outdated Packages](#list-outdated-packages)
-    - [Uninstall Packages](#uninstall-packages)
-- [Commonly Used Node Commands](#commonly-used-node-commands)
-    - [Check Version](#check-version)
-    - [Run a Script](#run-nodejs-script)
+- [Node Packages](#packages)
+- [Node Package Manager](#node-package-manager)
+- [Commonly Used Commands](#commonly-used-commands)
+    - [NPM Commands](#npm-commands)
+        - [initialize Package](#initialize-package)
+        - [Install Packages](#install-packages)
+        - [Update Packages](#update-packages)
+        - [List Outdated Packages](#list-outdated-packages)
+        - [Uninstall Packages](#uninstall-packages)
+    - [Node Commands](#node-commands)
+        - [Check Version](#check-version)
+        - [Run a Script](#run-nodejs-script)
 
 ## History of Node.js:
 
@@ -71,30 +72,29 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - They promote code reusability and modular design resulting in the development of maintainable and scalable application.
 - Modules are the building blocks of a package.
 
-### Packages:
+## Packages:
 
 - A package is a collection of one or more modules that are distributed together.
 - They can be installed via npm. 
 - A package typically includes a package.json file that specifies its dependencies and other metadata, such as its name, version, author, and license.
 - Packages can be used to distribute and share reusable code within the Node.js community.
 
-### npm:
+## Node Package Manager:
 
-- `npm` the standard package manager for Node.js.
+- Node Package Manager aka `npm` is the standard package manager for Node.js.
 - It is downloaded and bundled alongside Node.js.
 - It can be used to download, configure and create packages for Node.js projects.
 
+## Commonly Used Commands:
 
-## Commonly Used `npm` Commands:
+### NPM Commands:
 
-Here are some of the most commonly used `npm` commands and their usage:
-
-### Initialise Package:
+### Initialize Package:
     
-    // initialise as a package
+    // initialize as a package
     npm init
 
-    // initialise as a default node package
+    // initialize as a default node package
     // skips the prompts and accepts default values
     npm init -y
     npm init --yes
@@ -162,7 +162,7 @@ Here are some of the most commonly used `npm` commands and their usage:
 
 <br>
 
-## Commonly Used Node Commands:
+### Node Commands:
 
 ### Check version:
     

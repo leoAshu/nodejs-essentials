@@ -70,62 +70,84 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - A package typically includes a package.json file that specifies its dependencies and other metadata, such as its name, version, author, and license.
 - Packages can be used to distribute and share reusable code within the Node.js community.
 
-### Using npm:
+### npm:
 
 - `npm` the standard package manager for Node.js.
 - It is downloaded and bundled alongside Node.js.
 - It can be used to download, configure and create packages for Node.js projects.
-- Here are some of the most commonly used `npm` commands and their usage:
+
+
+## Commonly Used `npm` Commands:
+
+Here are some of the most commonly used `npm` commands and their usage:
+
+### Initialise node package:
+
+- This command initialises a Node.js project as a package.
+- It creates a `package.json` file that contains information about the project and its dependencies.
     
-        // initialise a javascript project as a node package
-        npm init
+    // initialise as a package
+    npm init
 
-        // initialise as a default node package
-        npm init -y
-        npm init --yes
+    // initialise as a default node package
+    // skips the prompts and accepts default values
+    npm init -y
+    npm init --yes
 
-        // install a package locally
-        npm i <package_name>
-        npm install <package_name>
+### Install packages:
+ 
+- There are two scopes of package installation available:
+    - global
+    - local or project
 
-        // install a package locally as a dev dependency
-        npm i --save-dev <package_name>
-        npm install --save-dev <package_name>
+    // install a package locally
+    npm i <package_name>
+    npm install <package_name>
 
-        // install packages from package.json dependencies
-        npm i
-        npm install
+    // install a package locally as a dev dependency
+    npm i --save-dev <package_name>
+    npm install --save-dev <package_name>
 
-        // install a package globally
-        npm i -g <package_name>
-        npm install -g <package_name>
+    // install packages from package.json dependencies
+    npm i
+    npm install
 
-        // update all local packages
-        npm update
+    // install a package globally
+    npm i -g <package_name>
+    npm install -g <package_name>
 
-        // update a specific local package
-        npm update <package_name>
+### Update packages:
 
-        // update all global packages
-        npm update -g
+    // update all local packages
+    npm update
 
-        // update a specific global package
-        npm update -g <package_name>
+    // update a specific local package
+    npm update <package_name>
 
-        // list outdated local packages
-        npm outdated
+    // update all global packages
+    npm update -g
 
-        // list outdated global packages
-        npm outdated -g --depth=0
+    // update a specific global package
+    npm update -g <package_name>
 
-        // remove a local package
-        npm uninstall <package_name>
+### List outdated packages:
 
-        // remove a local package without removing it from package.json
-        npm uninstall --no-save <package_name>
+    // list outdated local packages
+    npm outdated
 
-        // remove a global package
-        npm uninstall -g <package_name>
+    // list outdated global packages
+    npm outdated -g --depth=0
+
+### Uninstall packages:
+
+    // remove a local package
+    npm uninstall <package_name>
+
+    // remove a local package without removing it from package.json
+    npm uninstall --no-save <package_name>
+
+    // remove a global package
+    npm uninstall -g <package_name>
 
 <br>
 

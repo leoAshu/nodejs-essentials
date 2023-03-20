@@ -99,7 +99,7 @@ Node.js provides several global objects and variables that can be accessed from 
 
 ### NPM Commands:
 
-- ### Initialize Package:
+- #### Initialize Package:
     
         // initialize as a package
         npm init
@@ -113,7 +113,7 @@ Node.js provides several global objects and variables that can be accessed from 
 >
 > - It creates a `package.json` file that contains information about the project and its dependencies.
 
-- ### Install Packages:
+- #### Install Packages:
 
         // install a package locally
         npm i <package_name>
@@ -137,7 +137,7 @@ Node.js provides several global objects and variables that can be accessed from 
 >    - global
 >    - local or project
 
-- ### Update Packages:
+- #### Update Packages:
 
         // update all local packages
         npm update
@@ -151,7 +151,7 @@ Node.js provides several global objects and variables that can be accessed from 
         // update a specific global package
         npm update -g <package_name>
 
-- ### List Outdated Packages:
+- #### List Outdated Packages:
 
         // list outdated local packages
         npm outdated
@@ -159,7 +159,7 @@ Node.js provides several global objects and variables that can be accessed from 
         // list outdated global packages
         npm outdated -g --depth=0
 
-- ### Uninstall Packages:
+- #### Uninstall Packages:
 
         // remove a local package
         npm uninstall <package_name>
@@ -172,24 +172,24 @@ Node.js provides several global objects and variables that can be accessed from 
 
 ### Node Commands:
 
-- ### Check Version:
+- #### Check Version:
     
         // display node.js version
         node -v
         node --version
 
-- ### Run File:
+- #### Run File:
 
         // run a Node.js script file
         node <file_name>
 
-- ### Debug File:
+- #### Debug File:
 
         // starts a debugging session
         // for a Node.js file
         node --inspect <file_name>
 
-- ### Run Tests:
+- #### Run Tests:
 
         // run a test
         npm test

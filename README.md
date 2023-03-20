@@ -15,6 +15,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - [History of Node.js](#history-of-nodejs)
 - [Node Globals](#node-globals)
     - [Global Objects](#global-objects)
+    - [Module-Scoped Variables](#module-scoped-variables)
 - [Node Modules](#node-modules)
 - [Node Packages](#packages)
 - [Node Package Manager](#node-package-manager)
@@ -42,30 +43,37 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
     - 2015
     - IBM, Microsoft, Paypal and others
 
-<br>
-
 ## Node Globals:
+
+Node.js provides several global objects and variables that can be accessed from any module without the need to import or require them explicitly. These objects and variables are available globally and can be used throughout the application. In this section, we will cover some of the most commonly used Node globals.
 
 ### Global Objects:
 
-- These objects are available in all modules and need not be included in an application.
+- These are available in all modules and do not need to be included in the application.
 - The built-in JavaScript language objects are also globally accessible.
 - Some important global objects are:
-    - `Process`:
-        - provides information about, and control over the current Node.js process instance.
-        - `process.argv`: can be used to collect information from the terminal.
-        - `process.stdin` and `process.stdout`: standard input and standard output.
+    - `process`:
+        - Provides information about, and control over the current Node.js process instance.
+        - Some of the commonly used properties and methods of the `process` object are:
+            - `process.argv`: An array that contains the command-line arguments passed to the Node.js process.
+            - `process.env`: An object containing the user environment.
+            - `process.exit()`: A method used to exit the current process with a specified exit code.
+    - `console`:
+        - Provides a simple debugging console.
+        - Can be used to write messages to the console, including logging and error messages.
+        - Some of the commonly used methods of the `console` object are:
+            - `console.log()`: Prints a message to the console.
+            - `console.error()`: Prints an error message to the console.
+            - `console.warn()`: Prints a warning message to the console.
 
+### Module-Scoped Variables:
 
-> Note:
-> - Some variables may appear to be global but are not. These exist in the scope of modules:
->    - `__dirname`
->    - `__filename`
->    - `exports`
->    - `module`
->    - `require()`
-
-<br>
+- These variables may appear to be global, but are actually scoped to the module.
+- These variables include:
+    - `__dirname`: The directory name of the current module.
+    - `__filename`: The filename of the current module.
+    - `exports`: An object that is used to expose the module's public API.
+    - `require()`: A function used to load external modules.
 
 ## Node Modules:
 
@@ -161,8 +169,6 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 
         // remove a global package
         npm uninstall -g <package_name>
-
-<br>
 
 ### Node Commands:
 

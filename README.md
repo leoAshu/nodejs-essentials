@@ -62,6 +62,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - Node modules are a fundamental part of the Node.js ecosystem.
 - They are reusable pieces of code that encapsulate functionality.
 - They promote code reusability and modular design resulting in the development of maintainable and scalable application.
+- Modules are the building blocks of a package.
 
 ### Packages:
 

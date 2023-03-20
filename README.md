@@ -4,7 +4,9 @@
 
 # Node.js Essentials
 
-Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven` JavaScript runtime evironment.
+This repository aims to provide you with all the essential knowledge needed to get started with Node.js. 
+
+Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven` JavaScript runtime evironment. This runtime is built on Chrome's V8 JavaScript engine, which allows JavaScript code to run on the server-side.
 
 # Table of Contents:
 
@@ -13,7 +15,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
     - [Global Objects](#global-objects)
 - [Node Modules](#node-modules)
     - [npm](#npm)
-- [Commonly Used Commands](#commonly-used-commands)
+- [Commonly Used Node Commands](#commonly-used-node-commands)
     - [Check Version](#check-version)
     - [Run a Script](#run-nodejs-script)
 
@@ -113,7 +115,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 
 <br>
 
-## Commonly Used Commands:
+## Commonly Used Node Commands:
 
 ### Check version:
     

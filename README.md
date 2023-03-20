@@ -20,7 +20,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - [Node Package Manager](#node-package-manager)
 - [Commonly Used Commands](#commonly-used-commands)
     - [NPM Commands](#npm-commands)
-        - [initialize Package](#initialize-package)
+        - [Initialize Package](#initialize-package)
         - [Install Packages](#install-packages)
         - [Update Packages](#update-packages)
         - [List Outdated Packages](#list-outdated-packages)
@@ -74,7 +74,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - They promote code reusability and modular design resulting in the development of maintainable and scalable application.
 - Modules are the building blocks of a package.
 
-## Packages:
+## Node Packages:
 
 - A package is a collection of one or more modules that are distributed together.
 - They can be installed via npm. 

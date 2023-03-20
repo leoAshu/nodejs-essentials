@@ -16,7 +16,14 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 - [Node Globals](#node-globals)
     - [Global Objects](#global-objects)
 - [Node Modules](#node-modules)
+    - [Packages](#packages)
     - [npm](#npm)
+- [Commonly Used `npm` Commands](#commonly-used-npm-commands)
+    - [Initialise Package](#initialise-package)
+    - [Install Packages](#install-packages)
+    - [Update Packages](#update-packages)
+    - [List Outdated Packages](#list-outdated-packages)
+    - [Uninstall Packages](#uninstall-packages)
 - [Commonly Used Node Commands](#commonly-used-node-commands)
     - [Check Version](#check-version)
     - [Run a Script](#run-nodejs-script)
@@ -82,7 +89,7 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 
 Here are some of the most commonly used `npm` commands and their usage:
 
-### Initialise node package:
+### Initialise Package:
     
     // initialise as a package
     npm init
@@ -96,7 +103,7 @@ Here are some of the most commonly used `npm` commands and their usage:
 >
 > - It creates a `package.json` file that contains information about the project and its dependencies.
 
-### Install packages:
+### Install Packages:
 
     // install a package locally
     npm i <package_name>
@@ -120,7 +127,7 @@ Here are some of the most commonly used `npm` commands and their usage:
 >    - global
 >    - local or project
 
-### Update packages:
+### Update Packages:
 
     // update all local packages
     npm update
@@ -134,7 +141,7 @@ Here are some of the most commonly used `npm` commands and their usage:
     // update a specific global package
     npm update -g <package_name>
 
-### List outdated packages:
+### List Outdated Packages:
 
     // list outdated local packages
     npm outdated
@@ -142,7 +149,7 @@ Here are some of the most commonly used `npm` commands and their usage:
     // list outdated global packages
     npm outdated -g --depth=0
 
-### Uninstall packages:
+### Uninstall Packages:
 
     // remove a local package
     npm uninstall <package_name>

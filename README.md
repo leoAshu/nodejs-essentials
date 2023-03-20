@@ -82,9 +82,6 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 Here are some of the most commonly used `npm` commands and their usage:
 
 ### Initialise node package:
-
-- This command initialises a Node.js project as a package.
-- It creates a `package.json` file that contains information about the project and its dependencies.
     
     // initialise as a package
     npm init
@@ -94,11 +91,11 @@ Here are some of the most commonly used `npm` commands and their usage:
     npm init -y
     npm init --yes
 
+> Note:
+>
+> - It creates a `package.json` file that contains information about the project and its dependencies.
+
 ### Install packages:
- 
-- There are two scopes of package installation available:
-    - global
-    - local or project
 
     // install a package locally
     npm i <package_name>
@@ -115,6 +112,12 @@ Here are some of the most commonly used `npm` commands and their usage:
     // install a package globally
     npm i -g <package_name>
     npm install -g <package_name>
+
+> Note:
+>
+> - There are two scopes of package installation available:
+>    - global
+>    - local or project
 
 ### Update packages:
 

@@ -27,7 +27,9 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
         - [Uninstall Packages](#uninstall-packages)
     - [Node Commands](#node-commands)
         - [Check Version](#check-version)
-        - [Run a Script](#run-nodejs-script)
+        - [Run File](#run-file)
+        - [Debug File](#debug-file)
+        - [Run Test](#run-tests)
 
 ## History of Node.js:
 
@@ -164,19 +166,22 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 
 ### Node Commands:
 
-- ### Check version:
+- ### Check Version:
     
         // display node.js version
         node -v
         node --version
 
-- ### Run Node.js script:
+- ### Run File:
 
-        // run a script file
-        // can omit the .js extension
+        // run a Node.js script file
         node <file_name>
-        node app.js
-        node app
+
+- ### Debug File:
+
+        // starts a debugging session
+        // for a Node.js file
+        node --inspect <file_name>
 
 - ### Run Tests:
 

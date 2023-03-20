@@ -89,37 +89,37 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 
 ### NPM Commands:
 
-### Initialize Package:
+- ### Initialize Package:
     
-    // initialize as a package
-    npm init
+        // initialize as a package
+        npm init
 
-    // initialize as a default node package
-    // skips the prompts and accepts default values
-    npm init -y
-    npm init --yes
+        // initialize as a default node package
+        // skips the prompts and accepts default values
+        npm init -y
+        npm init --yes
 
 > Note:
 >
 > - It creates a `package.json` file that contains information about the project and its dependencies.
 
-### Install Packages:
+- ### Install Packages:
 
-    // install a package locally
-    npm i <package_name>
-    npm install <package_name>
+        // install a package locally
+        npm i <package_name>
+        npm install <package_name>
 
-    // install a package locally as a dev dependency
-    npm i --save-dev <package_name>
-    npm install --save-dev <package_name>
+        // install a package locally as a dev dependency
+        npm i --save-dev <package_name>
+        npm install --save-dev <package_name>
 
-    // install packages from package.json dependencies
-    npm i
-    npm install
+        // install packages from package.json dependencies
+        npm i
+        npm install
 
-    // install a package globally
-    npm i -g <package_name>
-    npm install -g <package_name>
+        // install a package globally
+        npm i -g <package_name>
+        npm install -g <package_name>
 
 > Note:
 >
@@ -127,58 +127,58 @@ Node.js is a `cross-platform`, `open-source` and an `asynchronous` `event-driven
 >    - global
 >    - local or project
 
-### Update Packages:
+- ### Update Packages:
 
-    // update all local packages
-    npm update
+        // update all local packages
+        npm update
 
-    // update a specific local package
-    npm update <package_name>
+        // update a specific local package
+        npm update <package_name>
 
-    // update all global packages
-    npm update -g
+        // update all global packages
+        npm update -g
 
-    // update a specific global package
-    npm update -g <package_name>
+        // update a specific global package
+        npm update -g <package_name>
 
-### List Outdated Packages:
+- ### List Outdated Packages:
 
-    // list outdated local packages
-    npm outdated
+        // list outdated local packages
+        npm outdated
 
-    // list outdated global packages
-    npm outdated -g --depth=0
+        // list outdated global packages
+        npm outdated -g --depth=0
 
-### Uninstall Packages:
+- ### Uninstall Packages:
 
-    // remove a local package
-    npm uninstall <package_name>
+        // remove a local package
+        npm uninstall <package_name>
 
-    // remove a local package without removing it from package.json
-    npm uninstall --no-save <package_name>
+        // remove a local package without removing it from package.json
+        npm uninstall --no-save <package_name>
 
-    // remove a global package
-    npm uninstall -g <package_name>
+        // remove a global package
+        npm uninstall -g <package_name>
 
 <br>
 
 ### Node Commands:
 
-### Check version:
+- ### Check version:
     
-    // display node.js version
-    node -v
-    node --version
+        // display node.js version
+        node -v
+        node --version
 
-### Run Node.js script:
+- ### Run Node.js script:
 
-    // run a script file
-    // can omit the .js extension
-    node <file_name>
-    node app.js
-    node app
+        // run a script file
+        // can omit the .js extension
+        node <file_name>
+        node app.js
+        node app
 
-### Run Tests:
+- ### Run Tests:
 
-    // run a test
-    npm test
+        // run a test
+        npm test
